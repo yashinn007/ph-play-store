@@ -17,6 +17,9 @@ const NavBar = () => {
           <li>
             <MyNavLink to={"/installedApps"}>Installation</MyNavLink>
           </li>
+          <li>
+            <MyNavLink to={"/dashboard"}>Dashboard</MyNavLink>
+          </li>
         </ul>
         <button className="btn bg-purple-500 text-white">
           <FaGithub></FaGithub> Contribute
